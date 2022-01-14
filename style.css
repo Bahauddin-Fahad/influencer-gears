@@ -5,7 +5,7 @@
 /* font-family: 'Inter', sans-serif; */
 body {
   font-family: "Poppins", sans-serif;
-  padding: 60px 120px;
+  padding: 60px 100px;
   margin: 0;
 }
 
@@ -22,11 +22,11 @@ h1 {
 a {
   color: #3a3a3a;
   font-size: 16px;
-  margin-right: 34px;
+  padding-right: 34px;
   text-decoration: none;
 }
-i {
-  margin-right: 34px;
+.fa-shopping-cart {
+  padding-left: 34px;
 }
 
 /* First Section  */
@@ -50,10 +50,10 @@ i {
 }
 button {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 44px;
-  width: 200px;
+  width: 196px;
   font-weight: bold;
   font-size: 16px;
   /* text-align: center; */
@@ -64,7 +64,7 @@ button {
   border-radius: 41px;
 }
 button > i {
-  font-size: 24px;
+  font-size: 20px;
 }
 /* .first-section-img {
   background-image: url(images/shape-1.png);
@@ -76,5 +76,4 @@ button > i {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 80px;
 }
