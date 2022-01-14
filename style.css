@@ -77,3 +77,13 @@ button > i {
   justify-content: center;
   align-items: center;
 }
+
+.brand-logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(211, 211, 211, 0.404);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.404);
+  margin-top: 70px;
+  padding: 20px 0 20px 0;
+}
